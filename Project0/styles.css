@@ -1,8 +1,23 @@
-.main {
-    color:red;
-    text-align: center;
+#maincontainer {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
-.searchform {
-    border-radius: 25px
+#mainheading {
+    color:red;
+    font-size: xx-large;
+    
+}
+
+#searchbar {
+    text-align: center;
+    border-radius: 25px;
+}
+
+#submitbuttons {
+    justify-content: center; 
+    display: flex;
 }
